@@ -1,0 +1,21 @@
+{
+    "name": "VR London Mall",
+    "type": "mall",
+    "allowed_vehicle": {
+        "car":  {
+            "slot": 100,
+            "fee_model_type": "fixed",
+            "fee": 30.0
+        },
+        "bus": {
+            "slot": 30,
+            "fee_model_type": "interval_days",
+            "fee": [
+                [6, 50],
+                [14, 100],
+                [24, 200],
+                ["#", 150]
+            ]
+        }
+    }
+}

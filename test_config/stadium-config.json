@@ -1,0 +1,24 @@
+{
+    "name": "M.A. Chidambaram Stadium",
+    "type": "stadium",
+    "allowed_vehicle": {
+        "motorcycle":  {
+            "slot": 1000,
+            "fee_model_type": "interval_hours",
+            "fee": [
+                [4, 30],
+                [12, 90],
+                ["#", 100]
+            ]
+        },
+        "car": {
+            "slot": 1500,
+            "fee_model_type": "interval_hours",
+            "fee": [
+                [4, 60],
+                [12, 180],
+                ["#", 200]
+            ]
+        }
+    }
+}
