@@ -2,6 +2,7 @@ from bisect import bisect_left
 from datetime import datetime, timedelta
 from typing import Dict
 from config import Config
+from exception import ProcessException
 
 
 from models.fee import FeeModel
@@ -88,7 +89,7 @@ class Process:
             self.tickets[parking_ticket.number] = parking_ticket
             return parking_ticket
         else:
-            raise Exception('Slot is not available')
+            raise ProcessException('Slot is not available')
 
     """This is a private fuction which calculated total fees based on the parking hours.
     Arugments
@@ -143,7 +144,7 @@ class Process:
     """
     def unpark(self, ticket_number: str, checkout_time: datetime) -> float:
         if ticket_number not in self.tickets:
-            raise Exception(f'Ticket {ticket_number} not found')
+            raise ProcessException(f'Ticket {ticket_number} not found')
 
         ticket = self.tickets[ticket_number]
         self.__unallocate_slot(ticket.vehicle_type, ticket.slot_number)

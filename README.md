@@ -1,5 +1,7 @@
 # Parking Lot
-> version 1.0
+> version 1.0.1
+
+[![codecov](https://codecov.io/gh/thisisckm/parking-lot/branch/develop/graph/badge.svg?token=WTBSORM45B)](https://codecov.io/gh/thisisckm/parking-lot)
 
 Parking Lot is used to calculate the parking fee after unparking.
 
