@@ -1,5 +1,5 @@
 # Parking Lot
-> version 1.0
+> version 1.0.1
 
 [![codecov](https://codecov.io/gh/thisisckm/parking-lot/branch/develop/graph/badge.svg?token=WTBSORM45B)](https://codecov.io/gh/thisisckm/parking-lot)
 
