@@ -1,6 +1,8 @@
 # Parking Lot
 > version 1.0
 
+[![codecov](https://codecov.io/gh/thisisckm/parking-lot/branch/develop/graph/badge.svg?token=WTBSORM45B)](https://codecov.io/gh/thisisckm/parking-lot)
+
 Parking Lot is used to calculate the parking fee after unparking.
 
 This version of Project Lot should be called as backend module of Parking Lot, because of no UI is used either GUI or TUI.
